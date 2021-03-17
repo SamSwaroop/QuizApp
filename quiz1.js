@@ -78,19 +78,19 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'A Whale is the biggest mammal underwater?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'YES', correct: true },
+      { text: 'NO', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Which of the following is not an animal?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Tiger', correct: true },
+      { text: 'Snail', correct: true },
+      { text: 'Owl', correct: true },
+      { text: 'Rose', correct: true }
     ]
   },
   {
@@ -103,10 +103,10 @@ const questions = [
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Ostrich can fly',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'YES', correct: false },
+      { text: 'NO', correct: true }
     ]
   }
 ]
